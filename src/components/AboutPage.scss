@@ -1,0 +1,10 @@
+@import '../style/palette.scss';
+
+.AboutPage {
+	color: $text-color;
+	padding: 25px 50px;
+
+	.title {
+		color: $accent-color;
+	}
+}

@@ -1,0 +1,23 @@
+@import '../style/palette.scss';
+
+.MessagePreview{
+	padding: 8px;
+	background-color: $card-background-color;
+	border-bottom: 1px solid $divider-color;
+	cursor: pointer;
+	transition: .3s;
+
+	&:hover{
+		background-color: rgba($primary-color, .2);
+	}
+
+	.title{
+		font-size: 16px;
+		color: $text-color;
+	}
+
+	.from{
+		font-size: 14px;
+		color: $secondary-text-color;
+	}
+}

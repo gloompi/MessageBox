@@ -1,0 +1,12 @@
+.InboxPage{
+	display: flex;
+	.messages{
+		flex: 1;
+	}
+	.message-container{
+		flex: 1;
+		background-color: #00B859;
+		color: #fff;
+		padding: 50px;
+	}
+}
